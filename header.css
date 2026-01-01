@@ -1,0 +1,306 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgb(212, 212, 212);
+  background-color: white;
+  z-index: 1000;
+ cursor: pointer;
+}
+
+.header-1{
+  justify-content: space-between;
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  bottom: 0px;
+  width: 80px;
+  border-right-width: 1px;
+  border-right-width: solid;
+  border-color: rgb(212, 212, 212);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  opacity: 1;
+  z-index: 9999;
+  
+}
+.text{
+  font-style: Roboto,Arial;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 5px;
+}
+.home{
+  justify-items: center;
+  padding-left: 20px;
+}
+.empty{
+  display: flex;
+  flex: 1;
+}
+
+.home-0{
+   height: 30px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+
+}
+
+.explore{
+   height:30px;
+  margin-top: 0px;
+  
+}
+.subscription{
+   height:30px;
+  margin-top: 0px;
+
+}
+.original{
+   height:30px;
+  margin-top: 0px;
+}
+.library{
+   height: 30px;
+  margin-top: 0px;
+  
+ 
+}
+.youtube-music{
+   height: 30px;
+  margin-top: 0px;
+   
+}
+
+.left-section{
+ 
+ width: 200px;
+  margin-right: 55px;
+  align-items: center;
+  display: flex;
+
+}
+.middle-section{
+  
+  flex : 1;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  max-width: 700px;
+}
+.right-section{
+
+  width: 300px;
+  display: flex;
+  align-items: center;
+ flex-shrink: 0;
+ 
+  
+}
+.home-page{
+ height: 25px;
+ margin-left: 10px;
+ 
+}
+.you-tube-logo{
+ height: 25px;
+ margin-left: 20px;
+}
+.search-logo{
+  width: 60px;
+  height: 43px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(144, 143, 143);
+  margin-right: 20px;
+  
+  
+}
+.search-logo-1{
+  height: 25px;
+  padding-top: 5px;
+  position: relative;
+ 
+  
+}
+.search-box{
+  flex:1;
+  height: 40px;
+  padding-left: 13px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(144, 143, 143);
+  
+
+}
+.search-box::placeholder{
+  font-family: Roboto,Arieal;
+  font-size: 16px;
+  
+  
+}
+.vioce-button{
+
+  height: 35px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.vioce-button-1{
+   
+   border-radius: 800px;
+   border: none;
+   cursor: pointer;
+   position: relative;
+}
+.tools{
+  height: 30px;
+  width: 25px;
+  display: flex;
+  margin-left: 30px;
+
+ 
+}
+.tools-1{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  margin-left: 25px;
+  cursor: pointer;
+  
+}
+.tools-3{
+ display: flex;
+  position: relative;
+  border: none;
+  background-color: white;
+  margin-left: 5px;
+ 
+ 
+}
+.tools-2{
+height: 30px;
+  width: 25px;
+  display: flex;
+  margin-left: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.notification{
+  background-color: rgb(207, 1, 1);
+  color: white;
+  border-radius: 15px;
+  width: 13px;
+  padding-left: 3px;
+  padding-right: 2px;
+  position: absolute;
+  bottom: 10px;
+  right: -9px;
+  cursor: pointer;
+  margin-left: 0px;
+
+}
+.search{
+ position: absolute;
+  font-size: 20px;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.381);
+  margin-top: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: -15px;
+  opacity: 0; 
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.search-logo:hover .search{
+  opacity: 1;
+}
+.vioce-hover{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  background-color:rgba(0, 0, 0, 0.664);
+  margin-top: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: -15px;
+  opacity: 0; 
+  transition: 0.2s;
+  pointer-events: none;
+
+}
+.vioce-button-1:hover .vioce-hover
+  {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    background-color:rgba(0, 0, 0, 0.381);
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -15px;
+    opacity: 1; 
+  }
+  .cre{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  background-color:rgba(0, 0, 0, 0.381);
+  margin-top: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  opacity: 0; 
+  transition:  0.2s;
+  pointer-events: none;
+
+}
+
+.tools-3:hover .cre{
+  
+  position: absolute;
+  display: flex;
+  
+  color: white;
+  font-size: 20px;
+  background-color:rgba(0, 0, 0, 0.381);
+  margin-top: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 1px;
+  opacity: 1; 
+
+}
